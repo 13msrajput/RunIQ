@@ -2,7 +2,7 @@
 
 <p align="center"><b>RunIQ</b> - live scores, real match statistics and SQL analytics for international cricket</p>
 
-**[Live App →](https://runiq.streamlit.app)**
+**[Live App →](https://runiqlive.streamlit.app)**
 
 </div>
 
