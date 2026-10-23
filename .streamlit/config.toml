@@ -1,0 +1,15 @@
+# Streamlit base theme = DARK (RunIQ's default, like the Cricbuzz dark look).
+# Light mode, the green top bar and all fine-grained colours are handled in utils/theme.py.
+[theme]
+base = "dark"
+primaryColor = "#00755a"
+backgroundColor = "#1e2729"
+secondaryBackgroundColor = "#181a1b"
+textColor = "#e8eaeb"
+
+[server]
+headless = true
+maxUploadSize = 50
+
+[browser]
+gatherUsageStats = false

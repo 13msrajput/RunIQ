@@ -1,0 +1,8 @@
+# Core runtime dependencies
+streamlit>=1.40,<2.0       
+pandas>=2.0                
+SQLAlchemy>=2.0             
+requests>=2.31              
+python-dotenv>=1.0         
+plotly>=5.18                
+Pillow>=10.0                

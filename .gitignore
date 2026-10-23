@@ -1,0 +1,41 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# ---------- Virtual environments ----------
+venv/
+.venv/
+env/
+
+# ---------- Secrets (NEVER commit these) ----------
+.env
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# ---------- Local databases, downloaded data and logs ----------
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+data/cricsheet/
+data/people.csv
+sql/data_dump.sql
+logs/*.log
+logs/*.log.*
+
+# ---------- Editor / OS files ----------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---------- Build / packaging ----------
+build/
+dist/
+*.zip
