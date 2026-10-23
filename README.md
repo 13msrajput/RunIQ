@@ -1,4 +1,12 @@
+<div align="center">
+
 <p align="center"><b>RunIQ</b> - live scores, real match statistics and SQL analytics for international cricket</p>
+
+**[Live App →](https://runiq.streamlit.app)**
+
+</div>
+
+---
 
 # RunIQ
 
@@ -49,19 +57,16 @@ source .venv/bin/activate         # macOS / Linux
 # 3) install the dependencies
 pip install -r requirements.txt
 
-# 4) create your private settings file
-copy .env.example .env            # Windows
-cp .env.example .env              # macOS / Linux
 # (optional) open .env and paste your RAPIDAPI_KEY - see section 3
 
-# 5) download and import the REAL match history (first time: a few minutes, ~100 MB download)
+# 4) download and import the REAL match history (first time: a few minutes, ~100 MB download)
 python -m scripts.import_cricsheet
 
-# 6) start the app
+# 5) start the app
 streamlit run main.py
 ```
 
-The browser opens at **http://localhost:8501**. Prefer clicking? Skip step 5, start the app, open **More -> Data & Settings** and press **Import real data from Cricsheet**.
+The browser opens at **http://localhost:8501**. Prefer clicking? Skip step 4, start the app, open **More -> Data & Settings** and press **Import real data from Cricsheet**.
 
 Handy import options
 
@@ -112,7 +117,7 @@ git init
 git add .
 git commit -m "RunIQ: initial commit"
 git branch -M main
-git remote add origin https://github.com/<your-username>/runiq.git
+git remote add origin https://github.com/13msrajput/RunIQ
 git push -u origin main
 ```
 `.gitignore` already excludes `.env`, the virtual environment, the local database, downloaded zip files and logs.
